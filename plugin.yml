@@ -1,0 +1,5 @@
+name: old_end_crystal
+version: 1.0
+author: 2F4U
+description: prevents the spawning of end crystals in any dimension but the end.
+main: us.fourbee.crystalpvp.main
