@@ -23,7 +23,7 @@ public class main extends JavaPlugin implements Listener {
 	}
 	@EventHandler
 	public void onCrystal(PlayerInteractEvent e) {
-		System.out.println(e.getMaterial().name());
+		//System.out.println(e.getMaterial().name());
 		if (e.getMaterial() == Material.END_CRYSTAL && e.getAction() == Action.RIGHT_CLICK_BLOCK) {
 			if (e.getPlayer().getWorld().getEnvironment() != Environment.THE_END) {
 				e.setCancelled(true);
